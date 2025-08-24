@@ -11,8 +11,8 @@ const Intro = () => {
       <div className="flex flex-col lg:flex-row lg:justify-between items-center mt-8 pt-6 max-w-4xl mx-auto gap-20 border-b border-gray-600 pb-8">
         <div className="flex lg:flex-row flex-col gap-10 justify-center items-center">
           <img
-            src="/Prof.jpg"
-            alt=""
+            src="Prof.jpg"
+            alt="prof"
             className="lg:size-40 rounded-xl h-45 w-50"
           />
           <div className="flex items-center flex-col justify-center lg:items-start ">

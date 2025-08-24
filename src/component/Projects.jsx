@@ -21,13 +21,13 @@ const Projects = () => {
       </div>
       <div className="grid lg:grid-cols-2 grid-col-1 gap-6 mt-10 justify-items-center">
         <ProjectCard
-          img="/542shots_so.png"
+          img="542shots_so.png"
           title="QuickBlog"
           desc="AI Integrated Blog Writing App"
           href="https://quick-blog-nine-black.vercel.app/"
         />
         <ProjectCard
-          img="/298shots_so.png"
+          img="298shots_so.png"
           href="https://cocktail-git-main-kvletscodes-projects.vercel.app/"
           title="Cocktail"
           desc="An interactive animated cocktail site that mixes sleek design with smooth animations for a refreshing digital experience."
@@ -36,7 +36,7 @@ const Projects = () => {
           href="https://yc-directory-ruddy-rho.vercel.app/"
           title="YCDirectory"
           desc="Pitch Your Startup Connect With Entrepreneurs"
-          img='/295shots_so.png'
+          img='295shots_so.png'
         />
         <ProjectCard href="https://kvletscode.github.io/Space/" desc='Discover the wonders of space through a sleek, cosmic-inspired web experience' title='Interactive Space Odyssey in Motion'
         img='Overview.png'/>

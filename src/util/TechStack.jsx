@@ -1,13 +1,14 @@
-import StackIcon from "tech-stack-icons";
+
 import { MdArrowOutward } from "react-icons/md";
 const TechCard = ({title,desc,href,icon}) => {
   return (
     <a href={href} target="_blank" className="flex  gap-4 group">
       <div
         style={{ width: 65, height: 65 }}
-        className="border border-gray-700 group-hover:border-gray-500 rounded-lg"
+        className="border flex items-center justify-center border-gray-700 group-hover:border-gray-500 rounded-lg"
       >
-        <StackIcon name={icon} variant="dark" className="p-2" />
+        <span className="mb-0.5">{icon}</span>
+        
       </div>
       <div>
         <h1 className="text-2xl font-semibold flex items-center gap-2">

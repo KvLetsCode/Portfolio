@@ -1,6 +1,12 @@
-import StackIcon from "tech-stack-icons";
-import { MdArrowOutward } from "react-icons/md";
+
 import TechCard from "../util/TechStack";
+import { SiNextdotjs } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+
 
 const TechStack = () => {
   return (
@@ -10,14 +16,14 @@ const TechStack = () => {
               <TechCard
                   title='NextJs'
                   desc='Reacr framework for full-stack apps'
-                  icon='nextjs2'
+                  icon={<SiNextdotjs className="size-8  " />}
                   href='https://nextjs.org/'
               
               />
               <TechCard
                   title='Tailwindcss'
                   desc='Utility-first CSS framework'
-                  icon='tailwindcss'
+                  icon={<RiTailwindCssFill className="size-8 text-[#38BDF8]" />}
                   href='https://tailwindcss.com'
               
               />
@@ -25,28 +31,28 @@ const TechStack = () => {
               <TechCard
                   title='Github'
                   desc='Version control and collaboration'
-                  icon='github'
+                  icon={<FaGithubSquare className="size-8" />}
                   href='https://github.com/'
               
               />
               <TechCard
                   title='NodeJs'
                   desc='JavaScript runtime environment'
-                  icon='nodejs'
+                  icon={<FaNodeJs className="size-8 text-green-600" />}
                   href='https://nextjs.org/'
               
               />
               <TechCard
                   title='MongoDB'
                   desc='NoSQL document databse'
-                  icon='mongodb'
+                  icon={<SiMongodb className="size-8 text-green-600" />}
                   href='https://www.mongodb.com/'
               
               />
               <TechCard
                   title='ExpressJs'
                   desc='Minimal backend framework'
-                  icon='expressjs'
+                  icon={<SiExpress className="size-8" />}
                   href='https://expressjs.com/'
               
               />
