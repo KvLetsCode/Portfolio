@@ -2,7 +2,7 @@ import { MdLocationOn } from "react-icons/md";
 
 const Education = () => {
   return (
-    <div className="mt-[10rem] max-w-4xl mx-auto lg:pl-0 pl-4 lg:pr-0 pr-3 " id="education">
+    <div className="mt-[10rem] !max-w-4xl mx-auto lg:pl-0 pl-4 lg:pr-0 pr-3 " id="education">
       <h1 className="font-semibold text-3xl">Education</h1>
       <div className=" p-4 shadow border-l border-gray-500 mt-8">
         <div className="flex items-center gap-0.5 mt-2 text-gray-400 text-lg pl-1">

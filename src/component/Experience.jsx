@@ -5,7 +5,7 @@ import Expt from "../util/Expt";
 
 const Experience = () => {
   return (
-    <div className="max-w-4xl mx-auto mt-[10rem] lg:pl-0 pl-4 lg:pr-0 pr-3" id="experience">
+    <div className="!max-w-4xl mx-auto mt-[10rem] lg:pl-0 pl-4 lg:pr-0 pr-3" id="experience">
       <h1 className="font-semibold text-3xl ">Experience</h1>
       <div className="border-l border-gray-500 pl-4 mt-8">
         <p className="flex items-center gap-1 mt-2 text-gray-400 text-lg pl-1">

@@ -13,9 +13,9 @@ export default function CopyEmail() {
 
   return (
     <div className=" px-3 py-2 rounded-lg ">
-      <button onClick={copyToClipboard} className="hover:text-white text-gray-400 cursor-pointer flex items-center  font-semibold text-xl gap-2">
+      <button onClick={copyToClipboard} className="hover:text-white text-gray-400 cursor-pointer flex items-center  font-semibold lg:text-xl gap-2 text-lg">
         <FiCopy className={`w-5 h-5 ${copied && "text-white"}`} />
-        {copied ? <span className=" text-white text-xl">Copied!</span>: <span>{email}</span>}
+        {copied ? <span className=" text-white text-lg lg:text-xl">Copied!</span>: <span>{email}</span>}
               
         </button>
     </div>

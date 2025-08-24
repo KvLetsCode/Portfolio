@@ -3,7 +3,7 @@ import ProjectCard from "../util/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="max-w-4xl mx-auto mt-[8rem]" id="project">
+    <div className="!max-w-4xl mx-auto mt-[8rem]" id="project">
       <div className="flex justify-between">
         <h1 className="font-semibold lg:text-2xl text-xl lg:pl-0 pl-6">
           Some of my projects

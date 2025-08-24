@@ -11,7 +11,7 @@ const TechCard = ({title,desc,href,icon}) => {
         
       </div>
       <div>
-        <h1 className="text-2xl font-semibold flex items-center gap-2">
+        <h1 className="md:text-2xl text-xl font-semibold flex items-center gap-2">
                   { title}{" "}
           <span>
             <MdArrowOutward className="text-gray-400 group-hover:text-white" />
