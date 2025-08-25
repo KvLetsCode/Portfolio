@@ -3,8 +3,39 @@ import gsap from 'gsap'
 const About = () => {
 
   useGSAP(() => {
-    gsap.fromTo('#title', { opacity: 0, yPercent: 100 }, { opacity: 1, yPercent: 0, duration: 1.5, ease: 'power1.inOut' })
-    gsap.fromTo('.content',{opacity:0,yPercent:50},{opacity:1,yPercent:0 , duration:1.5 ,ease:'power1.inOut',stagger:0.2})
+    const mm = gsap.matchMedia();
+
+mm.add("(min-width: 768px)", () => {
+  // Laptop / Desktop
+  gsap.fromTo("#title",
+    { opacity: 0, yPercent: 100 },
+    { opacity: 1, yPercent: 0, duration: 1.5, ease: "power1.inOut" }
+  );
+
+  gsap.fromTo(".content",
+    { opacity: 0, yPercent: 50 },
+    { opacity: 1, yPercent: 0, duration: 1.5, ease: "power1.inOut", stagger: 0.2 }
+  );
+});
+
+mm.add("(max-width: 767px)", () => {
+  // Mobile → less translate
+  gsap.timeline({
+    scrollTrigger: {
+      trigger: "#about",
+      start:"top 80%"
+    }
+  })
+  .fromTo("#title",
+    { opacity: 0, yPercent: 40 },
+    { opacity: 1, yPercent: 0, duration: 1, ease: "power1.inOut" }
+  )
+  .fromTo(".content",
+    { opacity: 0, yPercent: 20 },
+    { opacity: 1, yPercent: 0, duration: 1.2, ease: "power1.inOut", stagger: 0.15 },'-=1'
+  )
+});
+
   })
   return (
       <div className='mt-18 !max-w-4xl mx-auto' id="about">

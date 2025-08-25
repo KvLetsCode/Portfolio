@@ -2,12 +2,43 @@ import React from "react";
 import { GoDotFill } from "react-icons/go";
 import { MdLocationOn } from "react-icons/md";
 import Expt from "../util/Expt";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Experience = () => {
+  useGSAP(() => {
+    // Education section
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: "#experience", start: "top 80%"
+      }
+    })
+      .fromTo("#experience .exp-item",
+      { opacity: 0, y: 80 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.9,
+        ease: "power1.inOut"
+        
+      }
+    )
+    .fromTo("#extitle",
+      { opacity: 0, yPercent: 50 },
+      {
+        
+        opacity: 1,
+        yPercent: 0,
+        duration: 0.7,
+        ease: "power1.inOut",
+      }
+    )
+  }
+)
   return (
     <div className="!max-w-4xl mx-auto mt-[10rem] lg:pl-0 pl-4 lg:pr-0 pr-3" id="experience">
-      <h1 className="font-semibold text-3xl ">Experience</h1>
-      <div className="border-l border-gray-500 pl-4 mt-8">
+      <h1 className="font-semibold text-3xl" id='extitle'>Experience</h1>
+      <div className=" exp-item border-l border-gray-500 pl-4 mt-8" >
         <p className="flex items-center gap-1 mt-2 text-gray-400 text-lg pl-1">
           <figure>
             <MdLocationOn className="size-4 " />

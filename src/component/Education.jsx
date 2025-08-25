@@ -1,10 +1,44 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import { MdLocationOn } from "react-icons/md";
 
 const Education = () => {
+  useGSAP(() => {
+    // Education section
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: "#education", start: "top 80%"
+      }
+    })
+      .fromTo("#education .edu-item",
+      { opacity: 0, y: 80 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        
+        ease: "power1.inOut"
+        
+      }
+    )
+    .fromTo("#etitle",
+      { opacity: 0, yPercent: 100 },
+      {
+        stagger: 0.2,
+        opacity: 1,
+        yPercent: 0,
+        duration: 1,
+        ease: "power1.inOut",
+      }
+    )
+  }
+)
+  
+  
   return (
     <div className="mt-[10rem] !max-w-4xl mx-auto lg:pl-0 pl-4 lg:pr-0 pr-3 " id="education">
-      <h1 className="font-semibold text-3xl">Education</h1>
-      <div className=" p-4 shadow border-l border-gray-500 mt-8">
+      <h1 className="font-semibold text-3xl" id='etitle'>Education</h1>
+      <div className="edu-item p-4 shadow border-l border-gray-500 mt-8">
         <div className="flex items-center gap-0.5 mt-2 text-gray-400 text-lg pl-1">
           <figure>
             <MdLocationOn className="size-4" />

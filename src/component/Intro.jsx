@@ -24,8 +24,8 @@ const Intro = () => {
 
 })
   return (
-    <div id="intro">
-      <div className="flex flex-col lg:flex-row lg:justify-between items-center mt-8 pt-6 !max-w-4xl mx-auto gap-20 border-b border-gray-600 pb-8">
+    <div id="intro !max-w-4xl">
+      <div className="flex flex-col lg:flex-row lg:justify-between items-center mt-8 pt-6  mx-auto gap-20 border-b border-gray-600 pb-8">
         <div className="flex lg:flex-row flex-col gap-10 justify-center items-center"  >
           <img
             id="profile-pic"
@@ -57,7 +57,7 @@ const Intro = () => {
         </div>
 
         <a
-            href="/Resume_WebDev.pdf"
+            href="RESUME_WebDev.pdf"
             download='Krishanveer_CV.pdf'
           className="flex items-center gap-1 border-b relative z-10 border-gray-500 pb-1 hover:border-white transition-colors duration-300 hover:shadow hover:scale-110 text-xl "
         >
@@ -73,6 +73,7 @@ const Intro = () => {
         <div className="flex items-center gap-3" >
           <a
             href="https://github.com/KvLetsCode"
+            target="_blank"
             className="flex items-center gap-2 md:text-xl text-lg text-gray-400 hover:text-white"
           >
             <span>
@@ -82,6 +83,7 @@ const Intro = () => {
           </a>
           <a
             href="https://www.linkedin.com/feed/"
+            target="_blank"
             className="flex items-center gap-2 lg:text-xl text-lg text-gray-400 hover:text-white"
           >
             <span>

@@ -1,29 +1,4 @@
-// import { useState } from "react";
-// import { FaRegSquarePlus } from "react-icons/fa6";
 
-// const Header = () => {
-//   const [isActive , setIsActive] = useState(false)
-//   return (
-//     <div className='p-4 flex items-center justify-center'>
-//       {isActive && <div className={`flex gap-4 ${isActive && ' bg-black shadow-2xl p-2 rounded-xl'}`}>
-//         <a href="#experience">Experience</a>
-//         <a href="#education">Education</a>
-//         <a href="#stack">Stack</a>
-//       </div>}
-//       <button onClick={() => setIsActive(prev => !prev)}
-//         className={`p-2 ${isActive && '-rotate-45 transition-transform duration-300'}`}><FaRegSquarePlus className="size-8 text-gray-400 " />
-//       </button>
-//       {isActive && <div className="flex gap-4">
-//         <a href="#intro">Intro</a>
-//         <a href="#about">About</a>
-//         <a href="#project">Project</a>
-//       </div>}
-      
-//     </div>
-//   )
-// }
-
-// export default Header
 
 import { useState } from "react";
 import { FaRegSquarePlus } from "react-icons/fa6";
@@ -32,7 +7,8 @@ const Header = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="p-4 flex items-center justify-center gap-4 bg-black">
+   
+      <div className="p-4 flex items-center justify-center lg:gap-4 gap-2 bg-black lg:ml-0 ml-18">
       {/* Left menu */}
       <div
         className={`flex gap-6 items-center transition-all duration-300 bg-neutral-500 px-4 py-2 rounded-xl ${
@@ -71,6 +47,8 @@ const Header = () => {
 
       </div>
     </div>
+    
+    
   );
 };
 
