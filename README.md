@@ -55,20 +55,20 @@ Deploy to GitHub Pages:
 npm run deploy
 ```
 
-##🛠 How I Built It
+## 🛠 How I Built It
 
 This portfolio was built with a focus on clean UI, smooth user experience, and responsiveness.
 
-- # Component-Based Architecture
+- ## Component-Based Architecture
 Every section (About, Projects, Experience, Education, TechStack) is split into its own React component for scalability and maintainability.
 
-- # Styling & Layout
+- ## Styling & Layout
 
 Used TailwindCSS for utility-first styling and consistent spacing.
 
 Added DaisyUI for pre-built UI components like buttons and cards.
 
-- # Animations
+- ## Animations
 
 Integrated GSAP for scroll-based animations.
 
@@ -78,13 +78,13 @@ Leveraged gsap.matchMedia() for responsive animations: smaller motion on mobile,
 
 Timeline chaining and stagger created a smooth cascading effect for titles and content.
 
-- # Responsiveness
+- ## Responsiveness
 
 Used Tailwind breakpoints to adapt layout across devices.
 
 Animations recalculated with invalidateOnRefresh so they remain consistent on resize/rotate.
 
-- # Deployment
+- ## Deployment
 
 Configured GitHub Pages with Vite for a fast, production-ready build.
 
