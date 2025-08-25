@@ -99,7 +99,6 @@ If you’d like to connect or collaborate, reach out here:
 
 ⭐ If you like this portfolio, consider giving the repo a star!
 
-```
 
 ---
 
