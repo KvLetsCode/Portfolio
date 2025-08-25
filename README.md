@@ -59,34 +59,32 @@ npm run deploy
 
 This portfolio was built with a focus on clean UI, smooth user experience, and responsiveness.
 
-- ## Component-Based Architecture
-Every section (About, Projects, Experience, Education, TechStack) is split into its own React component for scalability and maintainability.
+- ### Component-Based Architecture
+ - Every section (About, Projects, Experience, Education, TechStack) is split into its own React component for scalability and maintainability.
 
-- ## Styling & Layout
+- ### Styling & Layout
 
-Used TailwindCSS for utility-first styling and consistent spacing.
+ - Used TailwindCSS for utility-first styling and consistent spacing.
 
-Added DaisyUI for pre-built UI components like buttons and cards.
+- ### Animations
 
-- ## Animations
+- Integrated GSAP for scroll-based animations.
 
-Integrated GSAP for scroll-based animations.
+- Used ScrollTrigger so sections animate only when in the viewport.
 
-Used ScrollTrigger so sections animate only when in the viewport.
+- Leveraged gsap.matchMedia() for responsive animations: smaller motion on mobile, more dramatic motion on desktop.
 
-Leveraged gsap.matchMedia() for responsive animations: smaller motion on mobile, more dramatic motion on desktop.
+- Timeline chaining and stagger created a smooth cascading effect for titles and content.
 
-Timeline chaining and stagger created a smooth cascading effect for titles and content.
+- ### Responsiveness
 
-- ## Responsiveness
+- Used Tailwind breakpoints to adapt layout across devices.
 
-Used Tailwind breakpoints to adapt layout across devices.
+- Animations recalculated with invalidateOnRefresh so they remain consistent on resize/rotate.
 
-Animations recalculated with invalidateOnRefresh so they remain consistent on resize/rotate.
+- ### Deployment
 
-- ## Deployment
-
-Configured GitHub Pages with Vite for a fast, production-ready build.
+ -Configured GitHub Pages with Vite for a fast, production-ready build.
 
 ---
 
