@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <div className='!max-w-5xl mx-auto '>
-        <div className=''>
+        <div className='!max-w-5xl'>
           <Header />
           <Intro />
           <About />

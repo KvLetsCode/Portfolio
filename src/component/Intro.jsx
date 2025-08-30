@@ -29,7 +29,7 @@ const Intro = () => {
         <div className="flex lg:flex-row flex-col gap-10 justify-center items-center"  >
           <img
             id="profile-pic"
-            src="Prof.jpg"
+            src="Profile.jpg"
             alt="prof"
             className="lg:size-40 rounded-xl h-45 w-50"
           />
