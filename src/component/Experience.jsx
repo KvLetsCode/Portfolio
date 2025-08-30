@@ -39,12 +39,12 @@ const Experience = () => {
     <div className="!max-w-4xl mx-auto mt-[10rem] lg:pl-0 pl-4 lg:pr-0 pr-3" id="experience">
       <h1 className="font-semibold text-3xl" id='extitle'>Experience</h1>
       <div className=" exp-item border-l border-gray-500 pl-4 mt-8" >
-        <p className="flex items-center gap-1 mt-2 text-gray-400 text-lg pl-1">
+        <div className="flex items-center gap-1 mt-2 text-gray-400 text-lg pl-1">
           <figure>
             <MdLocationOn className="size-4 " />
           </figure>
           <figcaption className="font-sans">Delhi, India</figcaption>
-        </p>
+        </div>
         <div className="flex justify-between items-center">
           <h1 className="lg:text-3xl text-2xl mt-2 pl-2 font-semibold">Edulty India</h1>
           <p className="font-semibold text-md">SEP 2024 – DEC 2024</p>

@@ -74,7 +74,8 @@ const Projects = () => {
         <ProjectCard
           img="542shots_so.png"
           title="QuickBlog"
-          desc="AI Integrated Blog Writing App"
+          desc="Interactive blogging with AI that helps you create and refine content.
+          "
           href="https://quick-blog-nine-black.vercel.app/"
         />
         <ProjectCard
@@ -86,14 +87,14 @@ const Projects = () => {
         <ProjectCard
           href="https://yc-directory-ruddy-rho.vercel.app/"
           title="YCDirectory"
-          desc="Pitch Your Startup Connect With Entrepreneurs"
+          desc="Pitch Your Startup Connect With Entrepreneurs.Discover and explore YC startups in one place."
           img="295shots_so.png"
         />
         <ProjectCard
-          href="https://kvletscode.github.io/Space/"
-          desc="Discover the wonders of space through a sleek, cosmic-inspired web experience"
-          title="Interactive Space Odyssey in Motion"
-          img="Overview.png"
+          href="https://tourvisto-su7j.vercel.app/"
+          desc="An AI-powered travel planning and destination explorer."
+          title="🌍 TourVisto – Discover & Plan Your Perfect Journey"
+          img="148shots_so.png"
         />
       </div>
     </div>

@@ -38,14 +38,14 @@ const Intro = () => {
             <h2 className="text-2xl mt-2 font-semibold text-gray-400">
               Web Developer
             </h2>
-            <p className="flex items-center gap-1 mt-2 text-gray-400">
+            <div className="flex items-center gap-1 mt-2 text-gray-400">
               <figure>
                 <MdLocationOn className="size-4  " />
               </figure>
               <figcaption className="font-semibold">
                 Ghaziabad, India
               </figcaption>
-            </p>
+            </div>
 
             <p className="mt-5 text-gray-400 font-semibold flex items-center">
               <span>
@@ -59,7 +59,7 @@ const Intro = () => {
         <a
             href="RESUME_WebDev.pdf"
             download='Krishanveer_CV.pdf'
-          className="flex items-center gap-1 border-b relative z-10 border-gray-500 pb-1 hover:border-white transition-colors duration-300 hover:shadow hover:scale-110 text-xl "
+          className="flex items-center gap-1 border-b relative z-10 border-gray-500 pb-1 hover:border-white transition-colors duration-300 hover:shadow hover:scale-110 lg:text-xl text-lg"
         >
           <span>
             <TiDownload />
@@ -68,7 +68,7 @@ const Intro = () => {
         </a>
       </div>
 
-      <div className="!max-w-4xl mx-auto lg:justify-between lg:flex-row flex flex-col justify-center items-center" id='social-links' >
+      <div className="!max-w-5xl mx-auto lg:justify-between lg:flex-row flex flex-col justify-center items-center" id='social-links' >
         <CopyEmail />
         <div className="flex items-center gap-3" >
           <a

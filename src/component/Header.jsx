@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
    
-      <div className="p-4 flex items-center justify-center lg:gap-4 gap-2 bg-black lg:ml-0 ml-18">
+      <div className="p-4 hidden lg:flex items-center justify-center lg:gap-4 gap-2 bg-black lg:ml-0 ml-18">
       {/* Left menu */}
       <div
         className={`flex gap-6 items-center transition-all duration-300 bg-neutral-500 px-4 py-2 rounded-xl ${
