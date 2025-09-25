@@ -4,7 +4,7 @@
 Welcome to the repository of my personal portfolio website!  
 This site showcases my **projects, skills, education, and experience** as a web developer.  
 
-🔗 **Live Site:** [Your Portfolio Link][https://your-username.github.io/portfolio/]  
+🔗 **Live Site:** (https://kvletscode.github.io/Portfolio/)]  
 
 ---
 
@@ -92,7 +92,7 @@ This portfolio was built with a focus on clean UI, smooth user experience, and r
 
 If you’d like to connect or collaborate, reach out here:
 
-* 🌐 [Portfolio Website][https://your-username.github.io/portfolio/]
+* 🌐 [Portfolio Website][https://kvletscode.github.io/Portfolio/]
 * 📧 [Gmail](chaudharykeshu9@gmail.com)
 
 ---
